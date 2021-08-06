@@ -155,7 +155,7 @@ nav{
    
    
    /*-----------------------------------
-            All-HIGHLIGHT
+            BONUS-MARK
    -----------------------------*/
    
 .highlight{
@@ -196,3 +196,28 @@ padding-left:170px ;
           background-color: rgba(128, 128, 128, 0.753);
           border-radius: 5px;
 }
+
+
+/*----------------------------
+           Mobile-Device
+ ------------------------------- */
+ 
+ @media (max-width:688px) {
+           .container{
+                     width: 100%;
+           }
+           .copa-america{
+                     background-color: green;
+                     grid-template-columns: repeat(1, 1fr);
+           }
+           .players{
+                     width:100%;
+                     
+           }
+           .blog{
+                     flex-direction: column;
+           }
+           .top-blogs{
+                    grid-template-columns: repeat(1, 1fr);
+           }
+ }
