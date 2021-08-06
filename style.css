@@ -1,0 +1,68 @@
+/* Fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+/* Fonts */
+
+/* common-command */
+body{
+          font-family: 'Poppins', sans-serif;          
+}
+
+
+/* -----------------------------------
+             COPA-AMERICA-2021 
+---------------------------------------*/
+.container{
+          
+          width: 1520px;
+          height: 677px;
+           background-color:#2D25A0 ;
+           margin: 0px;
+}
+
+nav a{
+          text-decoration: none;
+          font-size: 1em;
+          margin-right: 36px;
+          color:  #FFFFFF
+          
+}
+nav{
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 121px;
+         
+}
+.america{
+          color: #FFFFFF;
+         font-size: 3em;
+          size:64px;
+}
+.copa-america{
+          display: flex;
+          margin:102px ;
+       
+}
+.copa-america  .football-kick img{
+          width: 70%;
+          margin-left: 160px;
+}
+.button{
+          font-size: .5em;
+        
+          background-color:  #E02C6D;
+          width: 168px;
+          height: 44px;
+          left: 156px;
+          top: 464px;
+
+       
+}
+.fa-arrow-right{
+          margin-left: 8px;
+}
+.button a{
+          text-decoration: none;
+          color: #FFFFFF;
+}
