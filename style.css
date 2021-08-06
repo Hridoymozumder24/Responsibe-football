@@ -74,7 +74,10 @@ nav{
           text-decoration: none;
           color: #FFFFFF;
 }
-
+.copa-america:hover .football-kick{
+          transform: scale(1) rotate(360deg);
+          transition: transform 2.5s ease-out;
+}
 
 /*-----------------------------
              players
@@ -183,7 +186,13 @@ nav{
 }
 .icon{
           padding-left: 240px;
+          
 }
 .copyright{
 padding-left:170px ;  
+}
+.fab{
+          border: 5px solid gray;
+          background-color: rgba(128, 128, 128, 0.753);
+          border-radius: 5px;
 }
